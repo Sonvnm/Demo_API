@@ -11,6 +11,7 @@ namespace DataAccess
 {
     public class BranchAccountDAO
     {
+        // alo
         public static BranchAccount Login(string email, string password)
         {
             using var context = new SilverJewelry2024DBContext();
